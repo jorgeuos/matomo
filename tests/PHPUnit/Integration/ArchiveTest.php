@@ -10,7 +10,6 @@
 namespace Piwik\Tests\Integration;
 
 use Piwik\Archive;
-use Piwik\ArchiveProcessor\LoaderLock;
 use Piwik\ArchiveProcessor\Parameters;
 use Piwik\ArchiveProcessor\Rules;
 use Piwik\Common;
@@ -23,13 +22,9 @@ use Piwik\Db;
 use Piwik\Period\Factory;
 use Piwik\Plugins\VisitsSummary\API;
 use Piwik\Segment;
-use Piwik\SettingsPiwik;
 use Piwik\Site;
-use Piwik\Tests\Fixtures\LockerMutiThread;
 use Piwik\Tests\Framework\Fixture;
 use Piwik\Tests\Framework\TestCase\IntegrationTestCase;
-use SebastianBergmann\Environment\Runtime;
-use Thread;
 
 class ArchiveTest extends IntegrationTestCase
 {

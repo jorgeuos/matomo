@@ -9,10 +9,8 @@
 namespace Piwik\Plugins\Feedback\tests\Unit;
 
 
-use CpChart\Chart\Data;
 use Piwik\Date;
 use Piwik\Option;
-use Piwik\Piwik;
 use Piwik\Plugins\Feedback\Feedback;
 use Piwik\Plugins\UsersManager\Model;
 use Piwik\Tests\Framework\Mock\FakeAccess;

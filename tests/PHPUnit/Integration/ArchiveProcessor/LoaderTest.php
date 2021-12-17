@@ -13,7 +13,6 @@ namespace Piwik\Tests\Integration\ArchiveProcessor;
 use Piwik\Archive\ArchiveInvalidator;
 use Piwik\ArchiveProcessor\Parameters;
 use Piwik\ArchiveProcessor\Loader;
-use Piwik\ArchiveProcessor\PluginsArchiver;
 use Piwik\Common;
 use Piwik\Config;
 use Piwik\Container\StaticContainer;
@@ -30,9 +29,7 @@ use Piwik\Site;
 use Piwik\Tests\Framework\Fixture;
 use Piwik\Tests\Framework\TestCase\IntegrationTestCase;
 use Piwik\Plugins\SegmentEditor\API as SegmentApi;
-use Piwik\Option;
 use Piwik\ArchiveProcessor\Rules;
-use ReflectionClass;
 
 class LoaderTest extends IntegrationTestCase
 {

@@ -17,8 +17,6 @@ use Piwik\DataArray;
 use Piwik\DataTable;
 use Piwik\Metrics;
 use Piwik\Plugin\Manager;
-use Piwik\Segment;
-use Piwik\Segment\SegmentExpression;
 use Piwik\Tracker\GoalManager;
 use Piwik\Plugins\VisitFrequency\API as VisitFrequencyAPI;
 

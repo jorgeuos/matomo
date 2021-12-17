@@ -8,11 +8,9 @@
  */
 namespace Piwik\Plugins\CoreAdminHome;
 
-use Piwik\Db;
 use Piwik\Menu\MenuAdmin;
 use Piwik\Menu\MenuTop;
 use Piwik\Piwik;
-use Piwik\Plugin;
 
 class Menu extends \Piwik\Plugin\Menu
 {

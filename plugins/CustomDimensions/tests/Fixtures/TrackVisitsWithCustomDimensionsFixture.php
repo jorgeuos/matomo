@@ -13,7 +13,6 @@ use Piwik\Plugins\CustomDimensions\Dao\Configuration;
 use Piwik\Plugins\CustomDimensions\Dimension\Extraction;
 use Piwik\Plugins\Goals;
 use Piwik\Tests\Framework\Fixture;
-use Piwik\Plugin;
 use Piwik\Tracker\Cache;
 
 /**
